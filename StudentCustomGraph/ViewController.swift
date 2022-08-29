@@ -12,11 +12,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
         myView.backgroundColor = .white
-        myView.studentResult = Student(correctAnswers: 100, skippedVisited: 0, skippedNotVisited: 0, incorrectAnswers: 0, partiallyCorrect: 0)
-        myView.frame = view.frame
+        myView.studentResult = Student(correctAnswers: 54, skippedVisited: 38, skippedNotVisited: 5, incorrectAnswers: 2, partiallyCorrect:1)
+        myView.frame = CGRect(x: 20, y: 0, width: view.frame.size.width - 40, height: 200)
         view.addSubview(myView)
+        
+        
+        
     }
 
 

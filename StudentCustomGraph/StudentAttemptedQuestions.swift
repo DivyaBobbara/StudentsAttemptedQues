@@ -7,9 +7,9 @@
 
 import Foundation
 struct Student{
-    let correctAnswers : Int
-    let skippedVisited : Int
-    let skippedNotVisited : Int
-    let incorrectAnswers: Int
-    let partiallyCorrect : Int
+    let correctAnswers : Float
+    let skippedVisited : Float
+    let skippedNotVisited : Float
+    let incorrectAnswers: Float
+    let partiallyCorrect : Float
 }
