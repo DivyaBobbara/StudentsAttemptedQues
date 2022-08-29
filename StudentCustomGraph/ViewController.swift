@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
         
         myView.backgroundColor = .white
-        myView.studentResult = Student(correctAnswers: 24, skippedVisited: 24, skippedNotVisited: 24, incorrectAnswers: 5, partiallyCorrect: 24)
+        myView.studentResult = Student(correctAnswers: 100, skippedVisited: 0, skippedNotVisited: 0, incorrectAnswers: 0, partiallyCorrect: 0)
         myView.frame = view.frame
         view.addSubview(myView)
     }
